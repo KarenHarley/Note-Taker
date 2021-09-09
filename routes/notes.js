@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const uniqid = require("uniqid");
-const { readFromFile, readAndAppend } = require("../helpers");
+const { readFromFile, readAndAppend, writeToFile } = require("../helpers");
 //const notes = require("")
 const notes = require("../db/db.json");
 
@@ -31,12 +31,19 @@ router.delete("/:id", (req, res) => {
   const requestedId = req.params.id.toLowerCase();
   console.log(requestedId)
 
-  notes.forEach((each)=>{
-    if (each.id.toLocaleLowerCase() === requestedId){
-      console.log("right id")
+ // notes.forEach((each)=>{
+ //   if (each.id.toLocaleLowerCase() === requestedId){
+  //    console.log("right id")
     //each.slice(each,each);
-    }
-  })
+   // const newArray = notes.slice(each,each)
+  //  readAndAppend(newArray,"./db/db.json")
+ //   }
+ // })
+ const test = notes.filter(function(each){
+   return each.id !== requestedId
+ })
+ console.log(test)
+ readAndAppend(test,"./db/db.json")
 });
 
 module.exports = router;
