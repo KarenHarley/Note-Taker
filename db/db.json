@@ -1,39 +1,18 @@
 [
     {
-        "title": "Test 2",
-        "text": "Test 2",
+        "title": "Bake a cake",
+        "text": "see the recipe in grandma's book",
         "id": "sktwiwzktbzm8mu"
     },
     {
-        "title": "Test 3",
-        "text": "Test 3",
+        "title": "Shower the Dog",
+        "text": "Left shampoo in the sink downstairs",
         "id": "sktwi1tpktc2pqpb"
     },
     {
-        "title": "Test 4",
-        "text": "Test 4",
+        "title": "Make Dinner",
+        "text": "Pasta with salad",
         "id": "sktwi1vyktc4fi3i"
-    },
-    {
-        "title": "hi",
-        "text": "hello",
-        "id": "sktwi4vaktdbihrv"
-    },
-    [
-        {
-            "title": "Test 2",
-            "text": "Test 2",
-            "id": "sktwiwzktbzm8mu"
-        },
-        {
-            "title": "Test 3",
-            "text": "Test 3",
-            "id": "sktwi1tpktc2pqpb"
-        },
-        {
-            "title": "Test 4",
-            "text": "Test 4",
-            "id": "sktwi1vyktc4fi3i"
-        }
-    ]
+    }
+   
 ]
