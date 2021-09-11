@@ -25,7 +25,7 @@ After entering into the website, if you would to add a new note, do the followin
 
 3. To save this note and add it to the list of previously saved notes CLICK on the save icon on the top right. See below
 
-![note](../pics/note.png)
+![note](./pics/note.png)
 
 ### Website Pictures
 ![first page](./pics/first-page.png)
