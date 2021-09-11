@@ -28,8 +28,8 @@ After entering into the website, if you would to add a new note, do the followin
 ![note](../pics/note.png)
 
 ### Website Pictures
-![first page](../pics/first-page.png)
-![second page](../pics/website.png)
+![first page](./pics/first-page.png)
+![second page](./pics/website.png)
 
 ## License
 
