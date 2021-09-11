@@ -28,6 +28,12 @@ After entering into the website, if you would to add a new note, do the followin
 ![note](./pics/note.png)
 
 ### Website Pictures
+
+Below you will see the first page of this application, then the second page
+
+<br/>
+<br/>
+
 ![first page](./pics/first-page.png)
 ![second page](./pics/website.png)
 
